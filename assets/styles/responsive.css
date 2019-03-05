@@ -1145,3 +1145,9 @@
 }
 
 /*# sourceMappingURL=responsive.css.map */
+
+@media (min-width: 1500px) {
+  .top-features-centered-col1, .top-features-centered-col3 {
+    margin-top: 70px;
+  }
+}
