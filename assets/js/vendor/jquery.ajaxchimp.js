@@ -96,9 +96,11 @@ Author: Siddharth Doshi
                 $.each(dataArray, function (index, item) {
                     data[item.name] = item.value;
                 });
+                console.log('before submit', url)
 
                 $.ajax({
                     url: url,
+                    type: 'post',
                     data: data,
                     success: successCallback,
                     dataType: 'jsonp',
@@ -132,13 +134,13 @@ Author: Siddharth Doshi
     Your info from MailChimp goes bellow
 -------------------------------------------------- */
 (function ($) {
-    
+
     "use strict";
 
     $('.mc-ajax').ajaxChimp({
         callback: mailchimpCallback,
-        // Replace this with your own url, id and user code (see documentation). 
-        url: "http://viktorandonov.us8.list-manage.com/subscribe/post?u=0d1613dc78dfba6e3ad02aaa5&amp;id=25d4404c02" 
+        // Replace this with your own url, id and user code (see documentation).
+        url: "https://getmesa.us20.list-manage.com/subscribe/post?u=9ae056a02c956cbbe35a2ce60&amp;id=a3cd2683a6"
     });
 
     function mailchimpCallback(resp) {
