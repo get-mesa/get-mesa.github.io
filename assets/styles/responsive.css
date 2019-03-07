@@ -944,10 +944,11 @@
     padding-left: 0;
   }
   .agency2-hero .hero-content-wrapper .hero-content .hero-lead {
-    font-size: 3em;
+    font-size: 2em;
   }
   .agency2-hero .hero-content-wrapper .hero-content .hero-secondary {
-    letter-spacing: 10px;
+    letter-spacing: 3px;
+    font-size: 1.2em;
   }
   .agency2-hero .hero-content-wrapper .hero-content .btn {
     margin-top: 25px;
@@ -971,6 +972,13 @@
   .web-app-hero .hero-content-wrapper .hero-content .hero-lead {
     font-size: 50px;
     letter-spacing: 5px;
+  }
+  .sec-heading-top-m {
+    padding-right: 35px;
+    text-align: justify;
+  }
+  .sec-heading-top-m h2 {
+    text-align: center;
   }
 }
 
@@ -1149,5 +1157,30 @@
 @media (min-width: 1500px) {
   .top-features-centered-col1, .top-features-centered-col3 {
     margin-top: 70px;
+  }
+}
+
+@media (max-width: 992px) {
+  .top-features-item .ft-icon-white {
+  	margin: 0 10px 0 0 !important;
+  }
+  .top-features-item p {
+    width: 85vw;
+  }
+  .sec-heading {
+    width: 100vw;
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .top-features-centered .mb-xs-50 {
+    margin-bottom: 0px !important;
+  }
+  .top-features-centered-col3 .fa, .top-features-centered .ft-icon {
+    display: none !important;
+  }
+  .top-features-centered .ft-content.left-align {
+    width: 90vw !important;
   }
 }

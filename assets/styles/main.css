@@ -8386,7 +8386,9 @@ form .input-error-2:focus {
 }
 
 .agency2-hero .hero-content-wrapper .hero-content .hero-secondary {
-  letter-spacing: 10px;
+  letter-spacing: 5px;
+  font-size: 1.5em;
+  line-height: 1.6em;
 }
 
 .agency2-hero .hero-content-wrapper .hero-content .btn, .agency2-hero .hero-content-wrapper .hero-content .btn-ghost, .agency2-hero .hero-content-wrapper .hero-content .btn-ghost-light, .agency2-hero .hero-content-wrapper .hero-content .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .agency2-hero .hero-content-wrapper .hero-content .btn-ghost-light, .agency2-hero .hero-content-wrapper .hero-content .btn-text, .agency2-hero .hero-content-wrapper .hero-content .btn-text-light, .agency2-hero .hero-content-wrapper .hero-content .btn-light, .agency2-hero .hero-content-wrapper .hero-content .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .agency2-hero .hero-content-wrapper .hero-content .btn-ghost, .agency2-hero .hero-content-wrapper .hero-content .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .agency2-hero .hero-content-wrapper .hero-content .btn-light {
@@ -8679,7 +8681,7 @@ form .input-error-2:focus {
 .label-outline {
   padding: 0.1em 0.5em 0.2em;
   border: 2px solid #111;
-  background-color: none;
+  background-color: transparent;
   color: #111;
 }
 
@@ -9174,7 +9176,7 @@ form .input-error-2:focus {
 }
 
 .portfolio-item.hover-bottom figure figcaption a:focus {
-  otline: none;
+  outline: none;
 }
 
 .portfolio-item.hover-bottom figure figcaption .hover-heading {
