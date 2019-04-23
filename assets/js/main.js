@@ -568,7 +568,15 @@
 			// Filter items
 			$('#pfolio-filters').on( 'click', 'a', function() {
 				var filterValue = $(this).attr('data-filter');
-				$container.isotope({ filter: filterValue });
+				$('.portfolio-item').hide();
+				$(filterValue).show();
+
+				if (filterValue === '.give-update') {
+					$(window).scrollTop($(window).scrollTop()+1);
+					$(window).scrollTop($(window).scrollTop()-1);
+				}
+
+				// $container.isotope({ filter: filterValue });
 			});
 
 		} // fwNogap3col
@@ -594,6 +602,8 @@
 				$container.isotope({ filter: filterValue });
 			});
 
+			$('.portfolio-item').hide();
+			$('.portfolio-item-first').show();
 		}
 
 

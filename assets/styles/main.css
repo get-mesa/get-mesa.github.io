@@ -1258,7 +1258,7 @@ body, .testimonials-3col .t-item blockquote, .testimonials-3col .t-item .wrapper
   font-weight: 300;
   letter-spacing: 0.2px;
   line-height: 1.8em;
-  color: #777;
+  color: #BBB;
 }
 
 h1,
@@ -4031,7 +4031,7 @@ fieldset[disabled] .form-control:hover {
 
 .video-bg-section {
   height: 365px;
-  background: #ccc url(http://placehold.it/2440x1578);
+  background: #ccc url(../images/hero/bg3.jpg);
   background-position: 50%;
   background-size: cover;
 }
@@ -4042,6 +4042,7 @@ fieldset[disabled] .form-control:hover {
   width: 100%;
   height: 100%;
   text-align: center;
+  padding-top: 170px;
 }
 
 .video-bg-section .video-sec-content h3,
@@ -5045,8 +5046,9 @@ fieldset[disabled] .form-control:hover {
   padding: 3px 15px;
   text-transform: uppercase;
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
-  font-size: .85em;
+  font-size: 1em;
   letter-spacing: 2.5px;
+  font-weight: bold;
   color: #777;
 }
 
@@ -10329,4 +10331,33 @@ html, body {
   margin-left: -45px;
   width: 75% !important;
   margin-top: 10px;
+}
+
+.white {
+  color: white !important;
+}
+
+.uc-step {
+  width: 20%;
+}
+
+.portfolio-item p {
+  height: 250px;
+}
+
+.uc-username {
+  color: white !important;
+}
+
+.uc-username:hover {
+  color: #337ab7 !important;
+}
+
+.active .uc-username {
+  color: #337ab7 !important;
+}
+
+.ft-centered .ft-circle-frame-dark span:hover {
+  border-color: #337ab7;
+  color: #337ab7; 
 }

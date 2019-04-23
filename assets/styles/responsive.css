@@ -1184,3 +1184,9 @@
     width: 90vw !important;
   }
 }
+
+@media (max-width: 770px) {
+  .uc-step {
+    width: calc(100% - 15px);
+  }
+}
