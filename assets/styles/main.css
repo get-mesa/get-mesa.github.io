@@ -10354,10 +10354,20 @@ html, body {
 }
 
 .active .uc-username {
-  color: #337ab7 !important;
+  background-color: #337ab7 !important;
+  color: white !important;
+  -webkit-animation: bounce 1s;
+  animation: bounce 1s;
 }
 
 .ft-centered .ft-circle-frame-dark span:hover {
   border-color: #337ab7;
-  color: #337ab7; 
+  color: #337ab7;
+}
+
+.container-white {
+  background-color: white;
+  width: 100%;
+  padding-left:10%;
+  padding-right:10%;
 }
