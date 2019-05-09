@@ -571,10 +571,8 @@
 				$('.portfolio-item').hide();
 				$(filterValue).show();
 
-				if (filterValue === '.give-update') {
-					$(window).scrollTop($(window).scrollTop()+1);
-					$(window).scrollTop($(window).scrollTop()-1);
-				}
+				$(window).scrollTop($(window).scrollTop()+1);
+				$(window).scrollTop($(window).scrollTop()-1);
 
 				// $container.isotope({ filter: filterValue });
 			});

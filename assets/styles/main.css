@@ -1336,7 +1336,7 @@ h6, .progress-group .progress-title,
 .h-alt {
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 300;
-	max-width: 70vw;
+	max-width: 50vw;
   line-height: 25px;
   margin: auto;
 }
@@ -8384,7 +8384,7 @@ form .input-error-2:focus {
   font-size: 3em;
   font-weight: 400;
   letter-spacing: 10px;
-  color: #ececec;
+  color: white;
 }
 
 .agency2-hero .hero-content-wrapper .hero-content .hero-secondary {
@@ -10343,6 +10343,7 @@ html, body {
 
 .portfolio-item p {
   height: 250px;
+  color: #ddd !important;
 }
 
 .uc-username {
@@ -10390,16 +10391,19 @@ html, body {
 .app-welcome .subheading {
   color: #333;
   line-height: 2.1em;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .dark-bg h2, .dark-bg h5 {
   color: white;
 }
 
+.container-white .subheading {
+  color: #333;
+}
 .dark-bg .subheading {
-  color: #ccc !important;
+  color: #ddd !important;
 }
 
 h2 {
@@ -10412,4 +10416,17 @@ h5 {
 
 h3 {
   font-size: 1.8em; 
+}
+
+.container-white p {
+  color: #333;
+  text-align: justify;
+}
+
+p {
+  font-size: 1.15em;
+}
+
+.entrepreneurs-are-busy-people .fa {
+  margin-top: 29px !important;
 }
