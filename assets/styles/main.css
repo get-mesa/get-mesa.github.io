@@ -3150,7 +3150,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .ft-item p {
-  text-align: justify !important;
+  text-align: left !important;
 }
 
 .ft-cards .ft-item a {
@@ -5049,6 +5049,7 @@ fieldset[disabled] .form-control:hover {
   font-size: 1em;
   letter-spacing: 2.5px;
   font-weight: bold;
+  text-align: center;
   color: #777;
 }
 
@@ -6379,7 +6380,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .cta-newsletter .cta-wrapper input[type="email"]::placeholder {
-  color: #999
+  color: #AAA
 }
 
 .hero-content-wrapper .hero-content input[type="email"] {
@@ -8339,6 +8340,13 @@ form .input-error-2:focus {
 
 .agency2-hero .large-header .demo-canvas {
   max-width: 100%;
+  opacity: .6;
+  background-color: black;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
 }
 
 .agency2-hero .hero-content-wrapper {
@@ -8391,6 +8399,7 @@ form .input-error-2:focus {
   letter-spacing: 5px;
   font-size: 1.5em;
   line-height: 1.6em;
+  color: #f0f0f0;
 }
 
 .agency2-hero .hero-content-wrapper .hero-content .btn, .agency2-hero .hero-content-wrapper .hero-content .btn-ghost, .agency2-hero .hero-content-wrapper .hero-content .btn-ghost-light, .agency2-hero .hero-content-wrapper .hero-content .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .agency2-hero .hero-content-wrapper .hero-content .btn-ghost-light, .agency2-hero .hero-content-wrapper .hero-content .btn-text, .agency2-hero .hero-content-wrapper .hero-content .btn-text-light, .agency2-hero .hero-content-wrapper .hero-content .btn-light, .agency2-hero .hero-content-wrapper .hero-content .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .agency2-hero .hero-content-wrapper .hero-content .btn-ghost, .agency2-hero .hero-content-wrapper .hero-content .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .agency2-hero .hero-content-wrapper .hero-content .btn-light {
@@ -10342,8 +10351,9 @@ html, body {
 }
 
 .portfolio-item p {
-  height: 250px;
-  color: #ddd !important;
+  height: 150px;
+  color: #eee !important;
+  text-align: center !important;
 }
 
 .uc-username {
@@ -10376,8 +10386,19 @@ html, body {
   color: #333;
 }
 
+.entrepreneurs-are-busy-people .sec-heading {
+  margin-top: -15px;
+}
+
+.entrepreneurs-are-busy-people h5 {
+  margin-top: 7px !important;
+}
 .entrepreneurs-are-busy-people p {
   color: #333;
+  font-size: 1.1em;
+  width: 90%;
+  margin-top: -10px;
+  text-align: justify !important;
 }
 
 .entrepreneurs-are-busy-people h5 {
@@ -10385,14 +10406,18 @@ html, body {
 }
 
 .entrepreneurs-are-busy-people .ft-item {
-  height: 135px;
+  height: 120px;
+}
+
+.entrepreneurs-are-busy-people .fa {
+  margin-top: 0px !important;
 }
 
 .app-welcome .subheading {
   color: #333;
-  line-height: 2.1em;
-  padding-left: 10px;
-  padding-right: 10px;
+  line-height: 1.6em;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 
 .dark-bg h2, .dark-bg h5 {
@@ -10427,6 +10452,30 @@ p {
   font-size: 1.15em;
 }
 
-.entrepreneurs-are-busy-people .fa {
-  margin-top: 29px !important;
+.download-btns {
+  margin-bottom: 45px;
+}
+
+.the-big-network-problem .col-lg-offset-1 {
+  padding-bottom: 75px;
+}
+
+.btn-light {
+  background-color: white;
+}
+
+.the-big-network-problem p {
+  color: #ddd;
+  text-align: justify !important;
+}
+
+.the-big-network-problem .top-features-item {
+  margin-top: -20px;
+}
+.the-big-network-problem .top-features-item .ft-icon-white {
+  margin-top: 55px !important;
+  margin-right: 30px;
+}
+.the-big-network-problem-text {
+  margin-top: 20px;
 }
