@@ -945,10 +945,17 @@
   }
   .agency2-hero .hero-content-wrapper .hero-content .hero-lead {
     font-size: 2em;
+    max-width: 80vw;
+    margin: 0 auto;
+    margin-left: 10vw;
   }
   .agency2-hero .hero-content-wrapper .hero-content .hero-secondary {
     letter-spacing: 3px;
     font-size: 1.2em;
+    max-width: 80vw !important;
+    margin: 0 auto;
+    margin-left: 10vw;
+    margin-top: 20px;
   }
   .agency2-hero .hero-content-wrapper .hero-content .btn {
     margin-top: 25px;

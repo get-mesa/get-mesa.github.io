@@ -7988,6 +7988,7 @@ form .input-error-2:focus {
   font-weight: 800;
   letter-spacing: 5px;
   color: #ececec;
+  max-width: 90vw;
 }
 
 .fs-slide-1 .hero-content .hero-subheading {
@@ -10416,8 +10417,8 @@ html, body {
 .app-welcome .subheading {
   color: #333;
   line-height: 1.6em;
-  margin-left: -10px;
-  margin-right: -10px;
+  margin: 0 auto;
+  max-width: 90vw;
 }
 
 .dark-bg h2, .dark-bg h5 {
@@ -10478,4 +10479,16 @@ p {
 }
 .the-big-network-problem-text {
   margin-top: 20px;
+}
+
+.social-network-comparation  p {
+  margin-bottom: 50px;
+  margin-right: 100px;
+}
+
+.social-network-comparation img {
+  width: 100%;
+  max-width: 350px;
+  margin-left: 100px;
+  margin-top: -15px;
 }
