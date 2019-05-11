@@ -10472,6 +10472,7 @@ p {
 
 .the-big-network-problem .top-features-item {
   margin-top: -20px;
+  margin-left: -50px;
 }
 .the-big-network-problem .top-features-item .ft-icon-white {
   margin-top: 55px !important;
@@ -10491,4 +10492,8 @@ p {
   max-width: 350px;
   margin-left: 100px;
   margin-top: -15px;
+}
+
+.entrepreneurs-are-always {
+  width: 80%;
 }
