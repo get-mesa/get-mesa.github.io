@@ -47,6 +47,48 @@
   .mb-xs-100 {
     margin-bottom: 100px;
   }
+  .the-big-network-problem .top-features-item {
+    margin-top: 50px;
+    margin-left: 5vw;
+  }
+
+  .the-big-network-problem .top-features-item .ft-icon-white {
+    margin-top: 0px !important;
+  }
+
+  .entrepreneurs-are-busy-people .ft-item .fa {
+    margin: -10px 10px 0 0 !important;
+  }
+
+  .entrepreneurs-are-busy-people p {
+    width: 80vw;
+  }
+
+  .portfolio-item p {
+    width: 75vw;
+    margin: 0 auto;
+  }
+
+  .portfolio-item {
+    margin-bottom: -50px;
+  }
+
+  .social-network-comparation .sec-heading {
+    margin-bottom: 0px;
+  }
+
+  .social-network-comparation {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .social-network-comparation p {
+    margin-right: 10px;
+  }
+
+  .social-network-comparation img {
+    display: none;
+  }
 }
 
 /* ---- Navigation ---- */
@@ -1189,6 +1231,10 @@
   }
   .top-features-centered .ft-content.left-align {
     width: 90vw !important;
+  }
+
+  .the-big-network-problem .top-features-item {
+    margin-left: 0px;
   }
 }
 

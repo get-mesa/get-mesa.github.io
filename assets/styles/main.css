@@ -6356,6 +6356,10 @@ fieldset[disabled] .form-control:hover {
   text-align: center;
 }
 
+.cta-newsletter .cta-lead {
+  line-height: 35px;
+}
+
 .cta-newsletter .cta-wrapper h3, .cta-newsletter .cta-wrapper .page-title .subheading, .page-title .cta-newsletter .cta-wrapper .subheading {
   margin-top: 0;
   margin-bottom: 100px;
@@ -10323,8 +10327,8 @@ html, body {
 .top-features-centered {
   background-color: #fafafa;
   width: 100% !important;
-  padding-left: 10vw;
-  padding-right: 10vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 
@@ -10396,8 +10400,7 @@ html, body {
 }
 .entrepreneurs-are-busy-people p {
   color: #333;
-  font-size: 1.1em;
-  width: 90%;
+  font-size: 0.9em;
   margin-top: -10px;
   text-align: justify !important;
 }
@@ -10419,6 +10422,8 @@ html, body {
   line-height: 1.6em;
   margin: 0 auto;
   max-width: 90vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 .dark-bg h2, .dark-bg h5 {
@@ -10490,10 +10495,12 @@ p {
 .social-network-comparation img {
   width: 100%;
   max-width: 350px;
-  margin-left: 100px;
-  margin-top: -15px;
 }
 
 .entrepreneurs-are-always {
   width: 80%;
+}
+
+.pfolio-user-case .ft-item span {
+  border: 5px solid white !important;
 }
