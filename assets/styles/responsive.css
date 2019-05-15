@@ -85,10 +85,6 @@
   .social-network-comparation p {
     margin-right: 10px;
   }
-
-  .social-network-comparation img {
-    display: none;
-  }
 }
 
 /* ---- Navigation ---- */
@@ -626,6 +622,45 @@
   .testimonials-parallax .t-clients li a img {
     margin: auto;
   }
+
+  .scroller {
+    display: none;
+  }
+
+  .the-big-network-problem .sec-heading {
+    padding-right: 0px !important;
+  }
+
+  .the-big-network-problem .subheading {
+    width: 90vw !important;
+    margin-left: 5vw;
+  }
+
+  .top-features-item p {
+    width: 90vw !important;
+  }
+  .the-big-network-problem .top-features-item {
+    margin-left: 5vw;
+  }
+  .entrepreneurs-are-busy-people h5 {
+    font-size: 1em;
+  }
+  .entrepreneurs-are-busy-people .ft-item .fa {
+    padding: 9px 5px;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px 0px -10px !important;
+  }
+  .portfolio-item {
+    margin-bottom: 0;
+  }
+  .h-alt {
+    max-width: 70vw;
+  }
+  .cta-newsletter .btn {
+    width: 90vw;
+    padding: 10px 0 10px 0;
+  }
 }
 
 /* ---- Portfolio ---- */
@@ -1023,7 +1058,6 @@
     letter-spacing: 5px;
   }
   .sec-heading-top-m {
-    padding-right: 35px;
     text-align: justify;
   }
   .sec-heading-top-m h2 {
@@ -1242,4 +1276,9 @@
   .uc-step {
     width: calc(100% - 15px);
   }
+}
+
+.image-container {
+  text-align: center;
+  margin-top: -5px;
 }

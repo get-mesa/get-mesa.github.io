@@ -6390,7 +6390,7 @@ fieldset[disabled] .form-control:hover {
 .hero-content-wrapper .hero-content input[type="email"] {
   display: block;
   margin: 70px auto 0px auto;
-  width: 400px;
+  width: min(400px, 90vw);
   background: none;
   border: none;
   border-bottom: 2px solid #c5c5c5;
@@ -10503,4 +10503,9 @@ p {
 
 .pfolio-user-case .ft-item span {
   border: 5px solid white !important;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
